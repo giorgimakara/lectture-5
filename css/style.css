@@ -1,0 +1,55 @@
+header {
+	background-color: lightblue;
+}
+.logo{display: inline-block;
+	font-size: 80px;
+	color: red;
+	margin-right: 50px;
+	margin-left: 20px;
+	vertical-align: middle;
+}
+nav{
+	display: inline-block;
+	vertical-align: middle;
+}
+li{
+	color: black;
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+li a {
+	color: green;
+	font-size: 20px;
+
+/*section 1*/
+
+}
+.centainer{
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.mother{
+	margin-top: 20px;
+	width: 500px;
+	height: 500px;
+	background-color: yellowgreen;
+}
+
+.baby {
+	width: 100px;
+	height: 100px;
+}
+.black{
+	
+	background-color: black;
+}
+.red{
+	
+	background-color: red;
+}
+.green{
+	
+	background-color: green;
+}
