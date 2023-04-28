@@ -47,6 +47,7 @@ li a {
 	height: 500px;
 	background-color: yellow;
 	position: relative;
+	border-radius: 20px;
 
 }
 .baby {
@@ -60,6 +61,7 @@ li a {
 	background-color: black;
 }
 .red{
+	border-radius: 20px;
 	top: 25px;
 	left: 100px;
 	z-index: 3;
