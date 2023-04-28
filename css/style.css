@@ -1,9 +1,18 @@
-header {
-	background-color: lightblue;
+body {
+	height: 2000px;
 }
-.logo{display: inline-block;
-	font-size: 80px;
+header {
+	width: 100%;
+	background-color: lightblue;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+
+}
+.logo{
+	font-size: 50px;
 	color: red;
+	display: inline-block;
 	margin-right: 50px;
 	margin-left: 20px;
 	vertical-align: middle;
@@ -16,40 +25,63 @@ li{
 	color: black;
 	display: inline-block;
 	margin-right: 20px;
-	
 }
 li a {
 	color: green;
 	font-size: 20px;
 
+}
+
 /*section 1*/
 
-}
-.centainer{
+
+.container{
+
 	width: 1170px;
 	margin: 0 auto;
-
 }
 .mother{
-	margin-top: 20px;
+	margin-bottom: 50PX;
+	margin-top: 50px;
 	width: 500px;
 	height: 500px;
-	background-color: yellowgreen;
-}
+	background-color: yellow;
+	position: relative;
 
+}
 .baby {
 	width: 100px;
 	height: 100px;
+	position: absolute;
 }
 .black{
-	
+	top: 0px;
+	left: 50px;
 	background-color: black;
 }
 .red{
-	
+	top: 25px;
+	left: 100px;
+	z-index: 3;
 	background-color: red;
 }
 .green{
-	
+	top: 50px;
+	left: 150px;	
 	background-color: green;
+}
+.mgzavrebi{
+	display: inline-block;
+	position: relative;
+}
+.mydiv {
+	width: 150px;
+	height: 150px;
+	background-color: wheat;
+	position: absolute;
+	font-size: 30px;
+	color: red;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
